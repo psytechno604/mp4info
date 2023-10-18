@@ -18,7 +18,12 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
   implementation("org.springframework.boot:spring-boot-starter-web")
-	testImplementation("org.springframework.boot:spring-boot-starter-test")
+  implementation("io.netty:netty-all:4.1.100.Final")
+  implementation(platform("io.projectreactor:reactor-bom:2022.0.12"))
+  implementation("io.projectreactor.netty:reactor-netty-core")
+  implementation("io.projectreactor.netty:reactor-netty-http")
+
+	testImplementation("org.springframework.boot:spring-boot-starter-test")  
 }
 
 tasks.withType<Test> {
