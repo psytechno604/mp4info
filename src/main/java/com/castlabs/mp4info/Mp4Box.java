@@ -7,6 +7,9 @@ public class Mp4Box {
   public int size;
   public ArrayList<Mp4Box> subBoxes;
 
+  public Mp4Box() {
+    
+  }
   public Mp4Box(String type, int size) {
     subBoxes = new ArrayList<>();
     this.type = type;

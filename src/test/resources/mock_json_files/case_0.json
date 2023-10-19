@@ -1,0 +1,30 @@
+[
+  {
+    "type": "moof",
+    "size": 58,
+    "subBoxes": [
+      {
+        "type": "mfhd",
+        "size": 25
+      },
+      {
+        "type": "tfhd",
+        "size": 25
+      }
+    ]
+  },
+  {
+    "type": "traf",
+    "size": 58,
+    "subBoxes": [
+      {
+        "type": "mdat",
+        "size": 20
+      },
+      {
+        "type": "mdat",
+        "size": 30
+      }
+    ]
+  }
+]

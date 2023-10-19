@@ -51,7 +51,7 @@ public class Mp4Info {
         }
       }
     }
-
+    rootBox.size = rootBox.subBoxes.stream().mapToInt(subBox -> subBox.size).sum();
     return rootBox;
   }
 }
