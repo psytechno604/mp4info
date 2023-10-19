@@ -31,7 +31,7 @@ gradle build
 ```
 Server will start on port 8085. If you want to change it, set the desired valut in environment variable SERVER_PORT.
 
-Application works with mp4 files, that are available via HTTP or HTTPS protocols. For test purposes you may use this sample - ttps://demo.castlabs.com/tmp/text0.mp4.
+Application works with mp4 files, that are available via HTTP or HTTPS protocols. For test purposes you may use this sample - https://demo.castlabs.com/tmp/text0.mp4.
 
 4. Make your request:
 ```bash
